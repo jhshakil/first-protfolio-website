@@ -10,8 +10,9 @@ h1 {
     color: red;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -41,4 +42,32 @@ section {
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-div {
+    width: 40%;
+    margin: 0 5%;
+    padding: 0 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+#experience-right {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#experience-left {
+    border-left: 10px solid;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
